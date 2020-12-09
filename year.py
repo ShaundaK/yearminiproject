@@ -4,7 +4,6 @@ name = input("What is your name?  ")
 age = input("What is your age?  ")
 nage = int(age)
 year = (100 - nage) + 2020
-print("Hello, {}! You will be 100 in year {}!".format(name.capitalize(), year))
 number = int(input("Please enter a number.  "))
 a = ("Hello, {}! You will be 100 in year {}!".format(name.capitalize(), year))
 for line in range(number):
